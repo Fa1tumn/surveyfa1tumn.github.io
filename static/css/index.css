@@ -1,0 +1,62 @@
+
+.button{
+    width: 100%;
+    margin-right : 0px;
+    margin-left : 0px;
+    margin-bottom: 5px;
+    margin-top:0px;
+    align-self: center;
+    display: flex;
+
+}
+button{
+    width: 50%;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #ede7d0;
+    border: none;
+    /* border-radius: 20px; */
+    box-shadow: 0px 2px 1px black;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    display: inline;
+}
+button:hover{
+    color:blueviolet;
+    background-color: #eae2c5;
+    box-shadow: 0px 8px 15px blueviolet;
+    
+}
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.link-to-survey{
+    text-decoration: none;
+    color:black;
+    font-size:25px
+
+}
+.link-to-survey:hover{
+    color:blueviolet;
+    text-decoration-color: blueviolet;
+    text-decoration: underline;
+}
+
+.questionnaire{
+    display: block;
+}
+.shadow-input {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; /* 添加阴影 */
+    padding: 10px; /* 添加一些内边距使其看起来更好 */
+    border-radius: 4px; /* 圆角边框 */
+    border: 1px solid #ccc; /* 边框颜色 */
+    font-size: 15px; /* 字体大小 */
+  }
